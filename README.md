@@ -3,6 +3,8 @@
 
 *测试版本*
 
+[试用地址](https://evildeduplication.netlify.app/)
+
 在Unicode的兼容区有部分字符外形与正式区的字符完全一致，但是编码不同。
 
 因为这个字符比对是手动进行的，如果您发现了错误或有意见和建议，请提issue或pr。
