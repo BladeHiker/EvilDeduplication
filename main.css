@@ -60,3 +60,9 @@ cd {
     padding: 5px;
     margin-bottom: 10px;
 }
+
+a{
+    font-size: 12px;
+    display: inline;
+    text-decoration: none;
+}
