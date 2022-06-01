@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./main.css" type="text/css" rel="stylesheet" />
+    <title>邪道论文去重</title>
+  </head>
+  <body>
+    <header>
+      <h1>论文去重</h1>
+      <p>一眼丁真，鉴定为纯纯的邪道</p>
+      <p>仅作实验用途，作者概不负责</p>
+    </header>
+    <div class="main-con">
+      <div class="inp-con">
+        <div class="inp-title">
+          <h2>原文</h2>
+        </div>
+        <div class="edit-con">
+          <textarea id="raw"></textarea>
+        </div>
+      </div>
+      <div class="inp-con">
+        <div class="inp-title">
+          <!-- <h2 class="inp-title">替换</h2> -->
+          <button id="exec">去重</button>
+        </div>
+        <div class="edit-con">
+          <div id="edited"></div>
+        </div>
+      </div>
+    </div>
+    <div class="tips" >
+        替换文字如下：
+        <hr>
+        <div id="pattern"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
