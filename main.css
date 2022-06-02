@@ -46,6 +46,7 @@ header {
   border: black 1px solid;
   outline: none;
   overflow-y: scroll;
+  white-space: pre-wrap;
 }
 cd {
   background-color: lavender;
